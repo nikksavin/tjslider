@@ -123,6 +123,18 @@ body {
         font-size: 11px;
     }
 
+    .slider .slider__right .slider__right-item .item__content {
+        padding-bottom: 22px;
+    }
+
+    .slider .slider__left, .slider .slider__right {
+        height: 65vw;
+    }
+
+    .slider {
+        margin-top: 3vw;
+    }
+
 }
 
 
@@ -137,6 +149,18 @@ body {
         font-size: 10px;
     }
 
+    .slider .slider__left, .slider .slider__right {
+        height: 85vw;
+    }
+    
 
+}
+
+@media (max-width: 340px) {
+
+    .slider .slider__left, .slider .slider__right {
+        height: 95vw;
+    }
+    
 
 }
