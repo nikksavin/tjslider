@@ -14,3 +14,5 @@ $('.slider__right').slick({
     asNavFor: '.slider__left',
     arrows: false
 });
+
+console.log('dev brach');
